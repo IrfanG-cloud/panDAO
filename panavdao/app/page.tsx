@@ -1,13 +1,11 @@
-
-import styles from './page.module.css'
-
-
+import Navbar from "./components/Navbar";
+import HeroSection from "./components/HeroSection";
 
 export default function Home() {
   return (
-    <main >
-      <h1 className='text-2xl'>hello world</h1>
-
-    </main>
-  )
+    <div>
+      <Navbar />
+      <HeroSection />
+    </div>
+  );
 }

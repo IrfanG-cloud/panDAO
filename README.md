@@ -1,2 +1,0 @@
-# panDAO
-panverseDAO
