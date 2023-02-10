@@ -33,7 +33,7 @@ export default function HeroSection() {
           </div>
             <div>
                 <button className="w-[130px] h-[50px] mt-[40px] bg-red-600 leading-[30px] bg-bottom text-white px-5 font-bold border-none rounded-md text-1xl hover:bg-[0px -144px]">
-                <Link href='https://www.piaic.org/'>Apply</Link>
+                <Link href='/auth/register'>Apply</Link>
                 </button>
             </div>
            
@@ -44,7 +44,7 @@ export default function HeroSection() {
           height={1500}
           width={1000}
           alt="image"
-          className="fixed bottom-0 right-0"
+          className="bottom-0 right-0"
         />
       </div>
     </div>

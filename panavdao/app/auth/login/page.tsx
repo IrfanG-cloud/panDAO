@@ -45,7 +45,7 @@ export default function Login() {
                   type="password"
                   autoComplete="current-password"
                   required
-                  className="relative block w-full h-[40px] appearance-none rounded-none rounded-b-md border border-gray-300 px-3 py-2 text-gray-900 placeholder-gray-500 focus:z-10 focus:border-red-500 focus:outline-none focus:ring-red-500 sm:text-sm"
+                  className="relative block w-full h-[50px] appearance-none rounded-none rounded-b-md border border-gray-300 px-3 py-2 text-gray-900 placeholder-gray-500 focus:z-10 focus:border-red-500 focus:outline-none focus:ring-red-500 sm:text-sm"
                   placeholder="Password"
                 />
               </div>
@@ -54,8 +54,8 @@ export default function Login() {
             <div className="flex items-center justify-between">
             
               <div className="text-sm">
-                <a href="#" className="font-medium text-red-600 hover:text-red-500">
-                  Forgot your password?
+                <a href="#" className="font-medium">
+                  Forgot your <strong>password?</strong>
                 </a>
               </div>
             </div>
@@ -63,7 +63,7 @@ export default function Login() {
             <div>
               <button
                 type="submit"
-                className="group relative flex w-full justify-center rounded-md border border-transparent bg-red-600 py-2 px-4 text-sm font-medium text-white hover:bg-red-700 focus:outline-none focus:ring-2 focus:ring-red-500 focus:ring-offset-2"
+                className="group relative mb-[20px] h-[40px] w-[100px] justify-center rounded-md border border-transparent bg-red-600 py-2 px-4 text-sm font-medium text-white hover:bg-red-700 focus:outline-none focus:ring-2 focus:ring-red-500 focus:ring-offset-2"
               >
                 Sign in
               </button>

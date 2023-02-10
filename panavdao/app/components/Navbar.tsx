@@ -19,7 +19,7 @@ const NAV_ITEMS: Array<NavItem> = [
     {
         label: "APPLY",
         page: "apply",
-        href: '#',
+        href: '/register',
     },
     {
         label: "AVAILABLE PROGRAMS",
@@ -53,8 +53,8 @@ export default function Navbar() {
             <div >
                 <Image 
                     src="/logo.png" 
-                    width={130}
-                    height={70}
+                    width={160}
+                    height={90}
                     alt="logo" />
             </div>
             <div className='flex gap-10 text-[16px] text-[#fff] '>
