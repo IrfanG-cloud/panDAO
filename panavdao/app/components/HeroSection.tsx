@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import Link from 'next/link';
+import Link from "next/link";
 
 export default function HeroSection() {
   return (
@@ -12,11 +12,7 @@ export default function HeroSection() {
         flex 
         bg-gradient-to-tr
         from-gray-800
-        to-gray-500
-        to-gray-400
-       
-
-    "
+        to-gray-400"
     >
       <div className="w-full flex items-center ">
         <div className=" w-2/4 ml-10 pl-20">
@@ -27,24 +23,23 @@ export default function HeroSection() {
           </div>
           <div className="">
             <p className="text-[20px] font-normal leading-[30px] pt-5 text-[#fff]">
-              Getting Ready for the Next Generation and Future of the Internet<br/> -
-              Join a 13 Trillion Dollar Industry with 5 Billion Users
+              Getting Ready for the Next Generation and Future of the Internet
+              <br /> - Join a 13 Trillion Dollar Industry with 5 Billion Users
             </p>
           </div>
-            <div>
-                <button className="w-[130px] h-[50px] mt-[40px] bg-red-600 leading-[30px] bg-bottom text-white px-5 font-bold border-none rounded-md text-1xl hover:bg-[0px -144px]">
-                <Link href='/auth/register'>Apply</Link>
-                </button>
-            </div>
-           
+          <div>
+            <button className="w-[130px] h-[50px] mt-[40px] bg-red-600 leading-[30px] bg-bottom text-white px-5 font-bold border-none rounded-md text-1xl hover:bg-[0px -144px]">
+              <Link href="/auth/register">Apply</Link>
+            </button>
+          </div>
         </div>
 
         <Image
           src="/metaverse.png"
-          height={1500}
+          height={1800}
           width={1000}
           alt="image"
-          className="bottom-0 right-0"
+          className="mt-[auto]"
         />
       </div>
     </div>
