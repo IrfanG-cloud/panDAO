@@ -2,6 +2,7 @@ import Navbar from "./components/Navbar";
 import HeroSection from "./components/HeroSection";
 import Cities from "./components/Cities";
 import CoreCourse from "./components/CoreCourse";
+import ProgramParticipant from "./components/ProgramParticipant";
 
 export default function Home() {
   return (
@@ -10,6 +11,8 @@ export default function Home() {
       <HeroSection />
       <Cities />
       <CoreCourse />
+      <ProgramParticipant />
+   
     </div>
   );
 }

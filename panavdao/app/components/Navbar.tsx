@@ -43,7 +43,7 @@ export default function Navbar() {
     <div className="w-full mx-auto fixed top-0">
       <div className="justify-between items-center flex px-8 ">
         <div>
-          <Image src="/logo.png" width={160} height={90} alt="logo" />
+          <Image src="/logo.png" width={120} height={70} alt="logo" />
         </div>
         <div className="flex gap-10 text-[16px] text-[#fff] ">
           {NAV_ITEMS.map((item, idx) => {
@@ -51,7 +51,7 @@ export default function Navbar() {
               <Link
                 href={`${item.href}`}
                 key={idx}
-                className="color-white font-bold  hover:animate-bounce hover:text-[red]"
+                className="color-white font-bold hover:animate-bounce hover:text-[red]"
               >
                 {item.label}
               </Link>
