@@ -12,7 +12,7 @@ const NAV_ITEMS: Array<NavItem> = [
   {
     label: "HOW IT WORK",
     page: "howwork",
-    href: "#",
+    href: "/pages/howitwork",
   },
   {
     label: "APPLY",
@@ -21,18 +21,18 @@ const NAV_ITEMS: Array<NavItem> = [
   },
   {
     label: "AVAILABLE PROGRAMS",
-    page: "availableprograms",
-    href: "#",
+    page: "availableprogram",
+    href: "/pages/availableprogram",
   },
   {
     label: "WIT",
     page: "wit",
-    href: "#",
+    href: "/pages/wit",
   },
   {
     label: "CONTACT US",
-    page: "contactus",
-    href: "#",
+    page: "/pages/contactus",
+    href: "/pages/contactus",
   },
 ];
 

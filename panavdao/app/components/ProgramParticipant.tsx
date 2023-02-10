@@ -7,7 +7,7 @@ export default function ProgramParticipant() {
     <div>
       <div className="flex">
         <div className="w-[50%]">
-          <div className=" bg-red-800 h-[450px]">
+          <div className=" bg-red-600 h-[450px]">
             <div className=" bg-red text-center ">
               <h6 className=" text-white text-[20px] text-5xl font-bold text-4xl pt-[130px]">
                 Specialized Tracks
@@ -35,7 +35,7 @@ export default function ProgramParticipant() {
                 className="object-cover h-[450px]"
               />
             </Link>
-            <div className="absolute -bottom-52 group-hover:bottom-2 right-2 left-2 transition-all duration-500 bg-gray-800 dark:bg-slate-900 p-4 rounded shadow dark:shadow-gray-700">
+            <div className="absolute -bottom-52 group-hover:bottom-2 right-2 left-2 transition-all duration-500 bg-red-600 dark:bg-slate-600 p-4 rounded shadow dark:shadow-red-600">
               <h6 className="text-white text-[20px] font-bold text-4xl">
                 Web 3.0 (Blockchain) and Metaverse Specialization
               </h6>
@@ -67,7 +67,7 @@ export default function ProgramParticipant() {
                 className="object-cover h-[450px]"
               />
             </Link>
-            <div className="absolute -bottom-52 group-hover:bottom-2 right-2 left-2 transition-all duration-500 bg-gray-800 dark:bg-slate-900 p-4 rounded shadow dark:shadow-gray-700">
+            <div className="absolute -bottom-52 group-hover:bottom-2 right-2 left-2 transition-all duration-500 bg-red-600 dark:bg-slate-900 p-4 rounded shadow dark:shadow-red-600">
               <h6 className="text-white text-[20px] font-bold text-4xl">
                 Artificial Intelligence (AI) and Deep Learning Specialization
               </h6>
@@ -100,7 +100,7 @@ export default function ProgramParticipant() {
                 className="object-cover h-[450px]"
               />
             </Link>
-            <div className="absolute -bottom-52 group-hover:bottom-2 right-2 left-2 transition-all duration-500 bg-gray-800 dark:bg-slate-900 p-4 rounded shadow dark:shadow-gray-700">
+            <div className="absolute -bottom-52 group-hover:bottom-2 right-2 left-2 transition-all duration-500 bg-red-600 dark:bg-slate-900 p-4 rounded shadow dark:shadow-red-600">
               <h6 className="text-white text-[20px] font-bold text-4xl">
                 Cloud-Native Computing Specialization
               </h6>
@@ -132,7 +132,7 @@ export default function ProgramParticipant() {
                 className="object-cover h-[450px]"
               />
             </Link>
-            <div className="absolute -bottom-52 group-hover:bottom-2 right-2 left-2 transition-all duration-500 bg-gray-800 dark:bg-slate-900 p-4 rounded shadow dark:shadow-gray-700">
+            <div className="absolute -bottom-52 group-hover:bottom-2 right-2 left-2 transition-all duration-500 bg-red-600 dark:bg-slate-900 p-4 rounded shadow dark:shadow-red-600">
               <h6 className="text-white text-[20px] font-bold text-4xl">
                 Ambient Computing and IoT Specialization
               </h6>
@@ -164,7 +164,7 @@ export default function ProgramParticipant() {
                 className="object-cover h-[450px]"
               />
             </Link>
-            <div className="absolute -bottom-52 group-hover:bottom-2 right-2 left-2 transition-all duration-500 bg-gray-800 dark:bg-slate-900 p-4 rounded shadow dark:shadow-gray-700">
+            <div className="absolute -bottom-52 group-hover:bottom-2 right-2 left-2 transition-all duration-500 bg-red-600 dark:bg-slate-900 p-4 rounded shadow dark:shadow-red-600">
               <h6 className="text-white text-[20px] font-bold text-4xl">
               Genomics and Bioinformatics Specialization
               </h6>
@@ -195,7 +195,7 @@ export default function ProgramParticipant() {
                 className="object-cover h-[450px]"
               />
             </Link>
-            <div className="absolute -bottom-52 group-hover:bottom-2 right-2 left-2 transition-all duration-500 bg-gray-800 dark:bg-slate-900 p-4 rounded shadow dark:shadow-gray-700">
+            <div className="absolute -bottom-52 group-hover:bottom-2 right-2 left-2 transition-all duration-500 bg-red-600 dark:bg-slate-900 p-4 rounded shadow dark:shadow-red-600">
               <h6 className="text-white text-[20px] font-bold text-4xl">
               Network Programmability and Automation Specialization
               </h6>
