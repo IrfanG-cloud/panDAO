@@ -42,9 +42,9 @@ export default function Navbar() {
   return (
     <div className="w-full mx-auto fixed top-0">
       <div className="justify-between items-center flex px-8 ">
-        <div>
+        <Link href="/">
           <Image src="/logo.png" width={120} height={70} alt="logo" />
-        </div>
+        </Link>
         <div className="flex gap-10 text-[16px] text-[#fff] ">
           {NAV_ITEMS.map((item, idx) => {
             return (
