@@ -1,5 +1,5 @@
 import React from 'react'
-
+import Link from 'next/link'
 export default function Register() {
   return (
     <div  className="w-full 
@@ -76,12 +76,13 @@ export default function Register() {
         </div>
 
         <div>
-          <button
+          <Link
             type="submit"
+            href="/"
             className="group relative mb-[20px] h-[40px] w-[100px] justify-center rounded-md border border-transparent bg-red-600 py-2 px-4 text-sm font-medium text-white hover:bg-red-700 focus:outline-none focus:ring-2 focus:ring-red-500 focus:ring-offset-2"
           >
             Register
-          </button>
+          </Link>
         </div>
       </form>
     </div>

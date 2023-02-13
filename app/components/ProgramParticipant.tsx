@@ -8,11 +8,11 @@ export default function ProgramParticipant() {
       <div className="flex">
         <div className="w-[50%]">
           <div className=" bg-red-600 h-[450px]">
-            <div className=" bg-red text-center ">
+            <div className=" bg-red text-left p-[20px] ">
               <h6 className=" text-white text-[20px] text-5xl font-bold text-4xl pt-[130px]">
                 Specialized Tracks
               </h6>
-              <p className="text-white text-[20px] text-2xl p-[30px]">
+              <p className="text-white text-[20px] text-2xl pt-[20px]">
                 After completing the first three quarters the participants will
                 select one or more specializations consisting of two courses
                 each:

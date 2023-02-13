@@ -12,7 +12,7 @@ export default function HeroSection() {
         flex 
         bg-gradient-to-tr
         from-gray-800
-        to-gray-400"
+        to-gray-600"
     >
       <div className="w-full flex items-center ">
         <div className=" w-2/4 ml-10 pl-20">
