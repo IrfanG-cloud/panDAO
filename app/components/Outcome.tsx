@@ -4,12 +4,13 @@ import Image from "next/image";
 
 export default function Outcome() {
   return (
-    <div className=" w-full py-[80px] bg-gradient-to-tr from-gray-600 to-gray-500">
+    // bg-gradient-to-tr from-gray-600 to-gray-500
+    <div className=" w-full py-[80px] bg-white">
       <div className="w-full">
-        <h1 className="text-4xl font-bold text-gray-00 px-[50px] text-white">
+        <h1 className="text-[14px] text-4xl px-[50px] text-center text-gray-800">
           The Outcome for Participants of the Program
         </h1>
-        <p className="px-[50px] py-[30px] text-white text-1xl">
+        <p className="px-[50px] pt-[10px] text-gray-800 text-16px text-1xl text-center">
           The graduates of this program will own products (Full-Stack App
           Templates, AR and VR Experiences, and APIs) that are marketed globally
           by the Panaverse DAO and, if they like, will also be able to start off
@@ -19,8 +20,8 @@ export default function Outcome() {
           economy a much-needed boost by expanding software exports.
         </p>
       </div>
-      <div className="flex">
-        <div className="w-[20%] ">
+      <div className="flex pt-[80px] flex-wrap gap-2 w-[95%] m-auto">
+        <div className="w-[400px] ">
           <div className="group relative h-[260px]">
             <Image
               src="/metajobs.jpeg"
@@ -41,7 +42,7 @@ export default function Outcome() {
           </div>
         </div>
 
-        <div className="w-[20%] ">
+        <div className="w-[400px] ">
           <div className="group relative h-[260px]">
             <Image
               src="/blockchain.jpeg"
@@ -60,7 +61,7 @@ export default function Outcome() {
             </div>
           </div>
         </div>
-        <div className="w-[20%] ">
+        <div className="w-[400px] ">
           <div className="group relative h-[260px]">
             <Image
               src="/we3salary.jpeg"
@@ -80,7 +81,7 @@ export default function Outcome() {
             </div>
           </div>
         </div>
-        <div className="w-[20%] ">
+        <div className="w-[400px] ">
           <div className="group relative h-[260px]">
             <Image
               src="/metagam.jpeg"
@@ -100,7 +101,7 @@ export default function Outcome() {
             </div>
           </div>
         </div>
-        <div className="w-[20%] ">
+        <div className="w-[400px] pt-[30px]">
           <div className="group relative h-[260px]">
             <Image
               src="/metadeveloper.jpg"

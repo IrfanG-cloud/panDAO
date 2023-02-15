@@ -10,17 +10,17 @@ interface NavItem {
 
 const NAV_ITEMS: Array<NavItem> = [
   {
-    label: "HOW IT WORK",
+    label: "How It Work",
     page: "howwork",
     href: "/pages/howitwork",
   },
   {
-    label: "APPLY",
+    label: "Apply",
     page: "apply",
     href: "/auth/register",
   },
   {
-    label: "AVAILABLE PROGRAMS",
+    label: "Available Programs",
     page: "availableprogram",
     href: "/pages/availableprogram",
   },
@@ -30,7 +30,7 @@ const NAV_ITEMS: Array<NavItem> = [
     href: "/pages/wit",
   },
   {
-    label: "CONTACT US",
+    label: "Contact Us",
     page: "/pages/contactus",
     href: "/pages/contactus",
   },
@@ -40,18 +40,18 @@ export default function Navbar() {
   // const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
 
   return (
-    <div className="w-full mx-auto fixed top-0">
-      <div className="justify-between items-center flex px-8 ">
+    <div className="w-full mx-auto fixed top-0 px-12">
+      <div className="justify-between items-center flex ">
         <Link href="/">
           <Image src="/logo.png" width={120} height={70} alt="logo" />
         </Link>
-        <div className="flex gap-10 text-[16px] text-[#fff] ">
+        <div className="flex gap-7 text-[16px] text-[#fff] ">
           {NAV_ITEMS.map((item, idx) => {
             return (
               <Link
                 href={`${item.href}`}
                 key={idx}
-                className="color-white font-bold hover:animate-bounce hover:text-[red]"
+                className="color-white hover:animate-bounce hover:text-[red]"
               >
                 {item.label}
               </Link>
